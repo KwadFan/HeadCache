@@ -187,3 +187,7 @@ Every organizational decision has a cognitive cost. HeadCache exists to keep tha
 
 It helped me to solve my "writing docs" issue, I hope it can solve yours too.
 
+## Further informations
+
+Please take a look at [ABOUT.md](ABOUT.md)
+
