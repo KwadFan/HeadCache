@@ -58,12 +58,12 @@ Instead, it borrows the ideas that reduce cognitive overhead while intentionally
 ## The COAST Workflow
 
 What I wanted to say with that phrase:
-Work with least friction possible, especcialy with your knowledge, plans and ToDos.
+Work with least friction possible, especialy with your knowledge, plans and ToDos.
 
 - **C**apture -> Get ideas or information out of your head, care later about.
 - **O**rganize -> When it actually helps, don't categorize for future problems.
 - **A**ct -> Execute tasks when their time has come. Don't stress your self.
-- **S**tore -> Keep knowledge for future referance (like a zettelkasten)
+- **S**tore -> Keep knowledge for future reference (like a zettelkasten)
 - **T**each -> Simply transform knowledge into output! Teach others or teach yourself new things.
 
 This is also the "workflow" for this system.<br>
@@ -126,13 +126,13 @@ Projects are "one-time" things with a defined output. Put active projects here.
 
 Use a subfolder for each project, give it a strong memorable name.
 
-As soon you have finished move them to the archive.
+As soon as you have finished move them to the archive.
 
 #### routines
 
 An important view on routines, think of routines as never ending projects with an periodic renewal.
 
-Here is the place for your recuring tasks.
+Here is the place for your recurring tasks.
 Use one file per routine, describe it like you had forgotten everything about it.
 
 Once a recuring task becomes obsolete, move it in the archive!
@@ -140,7 +140,7 @@ Once a recuring task becomes obsolete, move it in the archive!
 ### Zettelkasten
 
 HeadCache uses the idea of small, connected notes.
-You don't need to understand the full Zettelkasten methodology to benefit from it, but reading about is definitely worth it.
+You don't need to understand the full Zettelkasten methodology to benefit from it, but reading about it is definitely worth it.
 
 ### Archive
 
@@ -201,6 +201,6 @@ Every organizational decision has a cognitive cost. HeadCache exists to keep tha
 
 It helped me to solve my "writing docs" issue, I hope it can solve yours too.
 
-## Further informations
+## Further information
 
 Please take a look at [ABOUT.md](ABOUT.md)
