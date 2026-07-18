@@ -4,11 +4,14 @@
 
 > Organize as little as possible. Retrieve as easily as possible.
 
+Just like a CPU cache keeps frequently needed data close for faster access, HeadCache keeps your knowledge accessible without requiring constant mental effort.
+
 Your brain is for thinking, not for remembering or organizing files.
 
 Many productivity systems become projects of their own. You spend more time refining folders, tags and workflows than actually getting work done.
 
 HeadCache exists to prevent exactly that.
+**Your notes should support your work, not become your work.**
 
 It is a low-overhead document system built around one simple idea:
 
@@ -29,8 +32,6 @@ Every additional decision creates cognitive overhead.
 
 HeadCache intentionally reduces those decisions to a minimum.
 It favors writing over organizing, searching over browsing and shipping over polishing.
-
-Your notes should support your work, not become your work.
 
 ## Inspired by
 
@@ -58,16 +59,57 @@ Instead, it borrows the ideas that reduce cognitive overhead while intentionally
 ## The COAST Workflow
 
 What I wanted to say with that phrase:
-Work with least friction possible, especialy with your knowledge, plans and ToDos.
+The goal is to work with as little friction as possible, especially when capturing knowledge, planning work and managing tasks.
 
-- **C**apture -> Get ideas or information out of your head, care later about.
-- **O**rganize -> When it actually helps, don't categorize for future problems.
-- **A**ct -> Execute tasks when their time has come. Don't stress your self.
-- **S**tore -> Keep knowledge for future reference (like a zettelkasten)
+- **C**apture -> Capture first. Decide later.
+- **O**rganize -> Avoid organizing for hypothetical future needs.
+- **A**ct -> Execute tasks when their time has come. Don't stress yourself.
+- **S**tore -> Keep knowledge for future reference (like a Zettelkasten)
 - **T**each -> Simply transform knowledge into output! Teach others or teach yourself new things.
 
 This is also the "workflow" for this system.<br>
 Capture -> Organize -> Act -> Store -> Teach
+
+```
+                  HEADCACHE
+
+          ┌─────────────────────┐
+          │ Capture Everything  │
+          │      00_inbox       │
+          └──────────┬──────────┘
+                     │
+                     ▼
+          ┌─────────────────────┐
+          │  Periodic  Review   │
+          └───────┬─────┬───────┘
+                  │     │
+         Action?  │     │ Knowledge?
+                  │     │
+                  ▼     ▼
+         ┌────────────┐ ┌────────────────┐
+         │ 01_active  │ │02_zettelkasten │
+         │Projects    │ │ Connected Notes│
+         │Routines    │ └────────┬───────┘
+         └──────┬─────┘          │
+                │                │
+                ▼                │
+          ┌──────────────┐       │
+          │     Done     │◄──────┘
+          └──────┬───────┘
+                 │
+                 ▼
+          ┌──────────────┐
+          │ 03_archive   │
+          └──────┬───────┘
+                 │
+                 ▼
+          ┌──────────────┐
+          │ 04_output    │
+          │ Share & Teach│
+          └──────────────┘
+```
+
+The only decision you need to make is how often you review your inbox.
 
 Everything you don't actually need, like a finished project, should be pushed to archive.
 
@@ -130,12 +172,12 @@ As soon as you have finished move them to the archive.
 
 #### routines
 
-An important view on routines, think of routines as never ending projects with an periodic renewal.
+An important view on routines, think of routines as never-ending projects with an periodic renewal.
 
 Here is the place for your recurring tasks.
 Use one file per routine, describe it like you had forgotten everything about it.
 
-Once a recuring task becomes obsolete, move it in the archive!
+Once a recurring task becomes obsolete, move it in the archive!
 
 ### Zettelkasten
 
@@ -149,7 +191,7 @@ Think of it like "cold storage" on a NAS.
 
 ### Output
 
-This is meant to store your output, like Blogposts, Tutorials, Documentation and even possible books.
+This is meant to store your output, like blog posts, Tutorials, Documentation and even possible books.
 
 Knowledge that never leaves your notebook has limited value.
 
@@ -189,10 +231,20 @@ Use Obsidian.
 Use Notepad.
 
 It doesn't matter.
-Your notes belong to you.
+Your notes belong to you. Your tools are just interfaces.
 
 HeadCache assumes that searching is faster than navigating deep folder hierarchies.
 Organize just enough to find things again and let your search tool do the rest.
+
+## Quick Start
+
+1. Create the folder structure, or fork this repository.
+2. Put every idea into `00_inbox`.
+3. Review your inbox regularly.
+4. Move actionable work to `01_active`.
+5. Move long-term knowledge to `02_zettelkasten`.
+6. Archive finished work.
+7. Publish what you've learned.
 
 ## Finally ...
 
