@@ -162,7 +162,7 @@ Explain concepts.
 
 ### templates (Optional)
 
-This isn't a part of my concept, just pure lazyness from my side.
+This isn't a part of my concept, just pure laziness from my side.
 Having some handy templates should reduce overhead and work in one go.
 
 ## File naming
