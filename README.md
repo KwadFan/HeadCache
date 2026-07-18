@@ -133,7 +133,7 @@ As soon you have finished move them to the archive.
 An important view on routines, think of routines as never ending projects with an periodic renewal.
 
 Here is the place for your recuring tasks.
-Use one file per routine, describe it like you had forgotten everything about it. 
+Use one file per routine, describe it like you had forgotten everything about it.
 
 Once a recuring task becomes obsolete, move it in the archive!
 
@@ -165,6 +165,20 @@ Explain concepts.
 This isn't a part of my concept, just pure lazyness from my side.
 Having some handy templates should reduce overhead and work in one go.
 
+## File naming
+
+There is no required file naming convention. However, it is recommended to choose descriptive, memorable names so files are easy to recognize and find later.
+
+For consistency and improved searchability, consider using [snake_case](https://developer.mozilla.org/en/docs/Glossary/Snake_case) for file names.
+
+For example:
+
+`idea_create_second_brain.md`
+
+or
+
+`blog_article_about_my_second_brain.md`
+
 ## Your notes, your tools
 
 HeadCache works with any editor.
@@ -190,4 +204,3 @@ It helped me to solve my "writing docs" issue, I hope it can solve yours too.
 ## Further informations
 
 Please take a look at [ABOUT.md](ABOUT.md)
-
