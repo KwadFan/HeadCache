@@ -125,7 +125,6 @@ Capture your research steps inside your project folder, you have to be able to r
 **Keep in mind your zettel should not contain the steps you needed to gain that knowledge, only the knowledge about a specific topic you needed.**
 
 Ones you have finished that project move it to the archive.
-If you decide, at that point, it may be useful to others or need some documentation for yourself, create output of it.
 During or after a project, decide if the gained knowledge should become reusable output.
 This can happen as documentation, tutorials, blog posts or other forms of teaching.
 Decision depends on your time and current "workload".
