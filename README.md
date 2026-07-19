@@ -4,6 +4,8 @@
 
 > Organize as little as possible. Retrieve as easily as possible.
 
+> HeadCache is a system of connected feedback loops.
+
 Just like a CPU cache keeps frequently needed data close for faster access, HeadCache keeps your knowledge accessible without requiring constant mental effort.
 
 Your brain is for thinking, not for remembering or organizing files.
@@ -68,65 +70,113 @@ Instead, it borrows the ideas that reduce cognitive overhead while intentionally
 - Prefer doing over organizing.
 - Solve today's problems, not hypothetical ones.
 
-## The COAST Workflow
+## COAST - The four Loops
 
-The COAST workflow describes how HeadCache reduces friction when capturing knowledge, planning work and managing tasks.
+COAST is a acronym for the following words:
 
 - **C**apture -> Capture first. Decide later.
 - **O**rganize -> Avoid organizing for hypothetical future needs.
 - **A**ct -> Execute tasks when their time has come. Don't stress yourself.
-- **S**tore -> Knowledge is never finished. Refine it. Expand it. Reuse it.
+- **S**tore -> Keep knowledge alive. Refine it. Expand it. Reuse it.
 - **T**each -> Share what you've learned through articles, documentation, tutorials or talks.
 
-This is also the "workflow" for this system.<br>
-Capture -> Organize -> Act -> Store -> Teach
+HeadCache has no "workflow" as in other systems like PARA or Kanban.
+Think about it more like feedback loops.
 
-```
-                  HEADCACHE
+### The Capture Loop
 
-          ┌─────────────────────┐
-          │ Capture Everything  │
-          │     (00_inbox)      │
-          └──────────┬──────────┘
-                     │
-                     ▼
-          ┌─────────────────────┐
-          │   Periodic Review   │
-          └───────┬─────┬───────┘
-                  │     │
-     Need Action? │     │ Worth keeping?
-                  │     │
-                  ▼     ▼
-         ┌────────────┐ ┌─────────────────┐
-         │ 01_active  │ │ 02_zettelkasten │
-         │ Projects   │ │ Connected Notes │
-         │ Routines   │ └────────┬────────┘
-         └──────┬─────┘          │
-                │                │
-                ▼                │
-          ┌──────────────┐       │
-          │     Done     │◄──────┘
-          └──────┬───────┘
-                 │
-                 │
-                 │
-                 ▼
-          ┌──────────────┐
-          │  03_archive  │
-          └──────┬───────┘
-                 │
-                 ▼
-          ┌───────────────┐
-          │   04_output   │
-          │ Share & Teach │
-          └───────────────┘
-```
+Everything starts with an idea or thought that "flashes" through your mind.
+Hold it! Write a quick and dirty note in your inbox.
+No refining or overthinking, just use your own words, small as possible, what runs through your head and distracts you.
+
+**Never keep ideas in your head!**
+
+Triage your inbox regularly. Now decide what has to be done with that idea.
+Is it worth to create a project? Create it.
+Is it long-term knowledge, that may help in future projects? Create a refined zettel out of it.
 
 The only decision you need to make is how often you review your inbox.
 
-Everything that is no longer active, like a finished project, should be moved to the archive.
+### The Knowledge Loop
+
+Knowledge is not something you collect once and store forever.
+It is something that grows through use.
+
+A zettel starts as an answer to a question, a solution to a problem or an insight from a project.
+
+Over time, connect it with related ideas, refine your understanding and reuse it in new situations.
+
+A good zettel saves future you from solving the same problem twice.
+
+Knowledge compounds.
+
+### The Action Loop
+
+> Projects are the main place where this loop happens, but the same principle applies to any task that requires learning.
+
+You created a project. Great! What now?
+Ask yourself "Do I have all knowledge I need to finish it?"
+If your answer is no, keep doing research.
+While doing research don't forget to capture the things you have learned.
+Just put it in your inbox or create a refined zettel out of it and link it to your project.
+
+Capture your research steps inside your project folder, you have to be able to read what you had to do to gain that knowledge later on.
+
+**Keep in mind your zettel should not contain the steps you needed to gain that knowledge, only the knowledge about a specific topic you needed.**
+
+Ones you have finished that project move it to the archive.
+If you decide, at that point, it may be useful to others or need some documentation for yourself, create output of it.
+During or after a project, decide if the gained knowledge should become reusable output.
+This can happen as documentation, tutorials, blog posts or other forms of teaching.
+Decision depends on your time and current "workload".
+
+### The Output Loop
+
+Knowledge becomes valuable when it leaves your personal system.
+
+Writing an article, creating documentation or teaching someone else forces you to organize your thoughts and exposes gaps in your understanding.
+
+Those gaps create new questions.
+
+New questions create new knowledge.
+
+Teaching is not the end of learning. It is another way learning continues.
+
+### Conclusion
 
 Capture quickly, organize only when necessary, act when needed, store what matters and teach what you've learned.
+
+These loops are not independent processes. They constantly feed each other.
+
+The Capture Loop prevents ideas and questions from getting lost.
+
+The Action Loop turns intentions into real-world experience and reveals gaps in your knowledge.
+
+The Knowledge Loop transforms those discoveries into reusable understanding.
+
+The Teaching Loop turns understanding into value and creates new questions, ideas and improvements.
+
+HeadCache is not about storing information.
+It is about creating a system where knowledge continuously evolves through action.
+
+```
+                  CAPTURE
+                     ○
+                  ↙    ↘
+                 /       \
+                ▼         ▼
+          PROJECT  ◄──► KNOWLEDGE
+                ▲         ▲
+                 \       /
+                  ↖    ↙
+                     ○
+               TEACH / OUTPUT
+
+```
+
+Projects expire.
+Knowledge evolves.
+Projects are temporary workloads. Knowledge is the cache that makes future work faster.
 
 ## Folder structure
 
@@ -190,7 +240,7 @@ An important view on routines, think of routines as never-ending projects with a
 Here is the place for your recurring tasks.
 Use one file per routine, describe it like you had forgotten everything about it.
 
-Once a recurring task becomes obsolete, move it in the archive!
+Once a recurring task becomes obsolete, move it to the archive!
 
 ### Zettelkasten
 
@@ -263,6 +313,25 @@ Organize just enough to find things again and let your search tool do the rest.
 5. Move long-term knowledge to `02_zettelkasten`.
 6. Archive finished work.
 7. Publish what you've learned.
+
+As a first step, I recommend learning about `git` and the Zettelkasten Method.
+
+Use these topics as your first projects:
+
+- Learn the basics.
+- Capture your discoveries.
+- Create reusable zettel from the knowledge you gain.
+- Link those zettel to related ideas.
+
+Afterwards, create an article, tutorial or documentation about `git` or the Zettelkasten Method.
+
+You do not have to publish it.
+
+The goal is to experience the complete HeadCache cycle:
+
+Capture → Learn → Create Knowledge → Teach → Improve Knowledge
+
+This is how HeadCache is meant to be used.
 
 ## Finally ...
 
