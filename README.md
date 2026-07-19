@@ -75,8 +75,8 @@ The COAST workflow describes how HeadCache reduces friction when capturing knowl
 - **C**apture -> Capture first. Decide later.
 - **O**rganize -> Avoid organizing for hypothetical future needs.
 - **A**ct -> Execute tasks when their time has come. Don't stress yourself.
-- **S**tore -> Keep knowledge for future reference, like a Zettelkasten.
-- **T**each -> Simply transform knowledge into output! Teach others or teach yourself new things.
+- **S**tore -> Knowledge is never finished. Refine it. Expand it. Reuse it.
+- **T**each -> Share what you've learned through articles, documentation, tutorials or talks.
 
 This is also the "workflow" for this system.<br>
 Capture -> Organize -> Act -> Store -> Teach
@@ -86,21 +86,21 @@ Capture -> Organize -> Act -> Store -> Teach
 
           ┌─────────────────────┐
           │ Capture Everything  │
-          │      00_inbox       │
+          │     (00_inbox)      │
           └──────────┬──────────┘
                      │
                      ▼
           ┌─────────────────────┐
-          │ Periodic Review     │
+          │   Periodic Review   │
           └───────┬─────┬───────┘
                   │     │
      Need Action? │     │ Worth keeping?
                   │     │
                   ▼     ▼
-         ┌────────────┐ ┌────────────────┐
-         │ 01_active  │ │02_zettelkasten │
-         │Projects    │ │ Connected Notes│
-         │Routines    │ └────────┬───────┘
+         ┌────────────┐ ┌─────────────────┐
+         │ 01_active  │ │ 02_zettelkasten │
+         │ Projects   │ │ Connected Notes │
+         │ Routines   │ └────────┬────────┘
          └──────┬─────┘          │
                 │                │
                 ▼                │
@@ -108,16 +108,18 @@ Capture -> Organize -> Act -> Store -> Teach
           │     Done     │◄──────┘
           └──────┬───────┘
                  │
-                 ▼
-          ┌──────────────┐
-          │ 03_archive   │
-          └──────┬───────┘
+                 │
                  │
                  ▼
           ┌──────────────┐
-          │ 04_output    │
-          │ Share & Teach│
-          └──────────────┘
+          │  03_archive  │
+          └──────┬───────┘
+                 │
+                 ▼
+          ┌───────────────┐
+          │   04_output   │
+          │ Share & Teach │
+          └───────────────┘
 ```
 
 The only decision you need to make is how often you review your inbox.
@@ -195,6 +197,11 @@ Once a recurring task becomes obsolete, move it in the archive!
 HeadCache uses the idea of small, connected notes.
 You don't need to understand the full Zettelkasten methodology to benefit from it, but reading about it is definitely worth it.
 
+Unlike projects, knowledge is never "finished".
+
+As your understanding grows, your notes evolve with it.
+Over time they become the foundation for articles, documentation, tutorials and other forms of output.
+
 ### Archive
 
 Pretty self-explanatory. Store things here that are no longer active, but might still be useful someday.
@@ -249,7 +256,7 @@ Organize just enough to find things again and let your search tool do the rest.
 
 ## Quick Start
 
-1. Create the folder structure, or fork this repository.
+1. Create the folder structure, clone or fork this repository.
 2. Put every idea into `00_inbox`.
 3. Review your inbox regularly.
 4. Move actionable work to `01_active`.
