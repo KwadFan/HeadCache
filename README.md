@@ -91,7 +91,7 @@ Capture -> Organize -> Act -> Store -> Teach
                      │
                      ▼
           ┌─────────────────────┐
-          │ Periodic  Review    │
+          │ Periodic Review     │
           └───────┬─────┬───────┘
                   │     │
      Need Action? │     │ Worth keeping?
