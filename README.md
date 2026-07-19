@@ -11,6 +11,7 @@ Your brain is for thinking, not for remembering or organizing files.
 Many productivity systems become projects of their own. You spend more time refining folders, tags and workflows than actually getting work done.
 
 HeadCache exists to prevent exactly that.
+
 **Your notes should support your work, not become your work.**
 
 It is a low-overhead document system built around one simple idea:
@@ -32,6 +33,17 @@ Every additional decision creates cognitive overhead.
 
 HeadCache intentionally reduces those decisions to a minimum.
 It favors writing over organizing, searching over browsing and shipping over polishing.
+
+## What HeadCache is not
+
+HeadCache is not:
+
+- another productivity system to maintain.
+- a replacement for your editor.
+- a database with a custom format.
+- a complex organization framework.
+
+It is simply a way to keep your thoughts accessible with minimal overhead.
 
 ## Inspired by
 
@@ -58,13 +70,12 @@ Instead, it borrows the ideas that reduce cognitive overhead while intentionally
 
 ## The COAST Workflow
 
-What I wanted to say with that phrase:
-The goal is to work with as little friction as possible, especially when capturing knowledge, planning work and managing tasks.
+The COAST workflow describes how HeadCache reduces friction when capturing knowledge, planning work and managing tasks.
 
 - **C**apture -> Capture first. Decide later.
 - **O**rganize -> Avoid organizing for hypothetical future needs.
 - **A**ct -> Execute tasks when their time has come. Don't stress yourself.
-- **S**tore -> Keep knowledge for future reference (like a Zettelkasten)
+- **S**tore -> Keep knowledge for future reference, like a Zettelkasten.
 - **T**each -> Simply transform knowledge into output! Teach others or teach yourself new things.
 
 This is also the "workflow" for this system.<br>
@@ -80,10 +91,10 @@ Capture -> Organize -> Act -> Store -> Teach
                      │
                      ▼
           ┌─────────────────────┐
-          │  Periodic  Review   │
+          │ Periodic  Review    │
           └───────┬─────┬───────┘
                   │     │
-         Action?  │     │ Knowledge?
+     Need Action? │     │ Worth keeping?
                   │     │
                   ▼     ▼
          ┌────────────┐ ┌────────────────┐
@@ -111,7 +122,7 @@ Capture -> Organize -> Act -> Store -> Teach
 
 The only decision you need to make is how often you review your inbox.
 
-Everything you don't actually need, like a finished project, should be pushed to archive.
+Everything that is no longer active, like a finished project, should be moved to the archive.
 
 Capture quickly, organize only when necessary, act when needed, store what matters and teach what you've learned.
 
@@ -168,11 +179,11 @@ Projects are "one-time" things with a defined output. Put active projects here.
 
 Use a subfolder for each project, give it a strong memorable name.
 
-As soon as you have finished move them to the archive.
+As soon as you have finished, move them to the archive.
 
 #### routines
 
-An important view on routines, think of routines as never-ending projects with an periodic renewal.
+An important view on routines, think of routines as never-ending projects with a periodic renewal.
 
 Here is the place for your recurring tasks.
 Use one file per routine, describe it like you had forgotten everything about it.
@@ -191,7 +202,7 @@ Think of it like "cold storage" on a NAS.
 
 ### Output
 
-This is meant to store your output, like blog posts, Tutorials, Documentation and even possible books.
+This is meant to store your output, like blog posts, tutorials, documentation and even possible books.
 
 Knowledge that never leaves your notebook has limited value.
 
@@ -202,9 +213,9 @@ Explain concepts.
 
 **Teaching is how knowledge becomes useful.**
 
-### templates (Optional)
+### Templates (Optional)
 
-This isn't a part of my concept, just pure laziness from my side.
+This is not part of the core concept, just a convenience layer to reduce friction even further.
 Having some handy templates should reduce overhead and work in one go.
 
 ## File naming
